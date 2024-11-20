@@ -97,15 +97,19 @@ cd ProjetoFinalCG
 
 ### Problemas Comuns
 
-1. **Erro ao Carregar Textura**:
+1. **Erro no Caminho dos Arquivos**:
+   - Certifique-se de mudar o caminho dos arquivos em `main.cpp`.
+   - Confirme que o caminho para a textura e o objeto esteja correto para o seu computador (Ex.: `<Seu Caminho>/ProjetoFinalCG/earth/13902_Earth_v1_l3.obj`).
+
+2. **Erro ao Carregar Textura**:
    - Certifique-se de que `Earth_diff.jpg` esteja na pasta `textures/`.
    - Confirme que o caminho para a textura no código está correto.
 
-2. **Modelo Não Carrega**:
+3. **Modelo Não Carrega**:
    - Verifique se o arquivo `13902_Earth_v1_l3.obj` está na pasta `models/`.
    - Certifique-se de que a biblioteca Assimp está corretamente configurada.
 
-3. **Erro de DLL Faltando no Windows**:
+4. **Erro de DLL Faltando no Windows**:
    - Confirme que `glew32.dll` e `assimp-vc143-mt.dll` estão no mesmo diretório do executável.
 
 ---

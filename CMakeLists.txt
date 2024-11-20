@@ -56,6 +56,6 @@ add_custom_command(TARGET ProjetoFinalCG POST_BUILD
                    "$<TARGET_FILE_DIR:ProjetoFinalCG>/glew32.dll")
                    
 add_custom_command(TARGET ProjetoFinalCG POST_BUILD
-                   COMMAND ${CMAKE_COMMAND} -E copy
-                   "C:/Program Files/Assimp/bin/x64/assimp-vc143-mt.dll"
-                   "$<TARGET_FILE_DIR:ProjetoFinalCG>/assimp-vc143-mt.dll")
+                   COMMAND ${CMAKE_COMMAND} -E copy_directory
+                   "${CMAKE_SOURCE_DIR}/deps/assimp/bin"
+                   "${CMAKE_BINARY_DIR}")
