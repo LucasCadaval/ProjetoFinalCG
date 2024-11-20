@@ -1,6 +1,8 @@
 # Earth Explorer 🌍
 
-![Earth Explorer Banner](assets/banner.png)
+<p align="center">
+  <img src="assets/banner.jpg" alt="Earth Explorer Banner" width="600"/>
+</p>
 
 **Earth Explorer** é um jogo 3D que renderiza um modelo detalhado do planeta Terra, permitindo ao usuário explorar o ambiente com controles de teclado e mouse. Navegue pelo espaço, observe o planeta em detalhes e experimente uma simulação envolvente de visualização do nosso mundo em um cenário espacial.
 
@@ -21,7 +23,9 @@
 
 O **Earth Explorer** utiliza OpenGL e bibliotecas modernas como GLFW, GLEW, GLM e Assimp para criar uma experiência visual imersiva e responsiva. Com controles simples e um design limpo, você pode explorar o planeta Terra em um cenário dinâmico e fascinante.
 
-![Earth Explorer Running](assets/jogo.gif)
+<p align="center">
+  <img src="assets/jogo.gif" alt="Demonstração do Jogo" width="800"/>
+</p>
 
 ---
 
