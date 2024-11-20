@@ -17,11 +17,6 @@
 # Arquivos de log
 *.log
 
-# Ignora diretórios de dependências específicos de plataformas
-/deps/glfw/build/
-/deps/glew/build/
-/deps/assimp/build/
-
 # Arquivos de configuração do IDE
 .vscode/
 /.idea/
